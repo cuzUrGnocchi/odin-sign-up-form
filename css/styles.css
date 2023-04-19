@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > div {
+    height: 100vh;
+    display: flex;
+}
+
+.image-sidebar {
+    /* background-image: url("../imgs/mountain-scenery.jpg"); */
+    background-color: aqua;
+    background-size: cover;
+    background-position: 25%;
+    width: 25%;
+    height: 100%;
+    min-width: 250px;
+}
+
+.logo-background {
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.45);
+    height: 140px;
+    width: 100%;
+    margin-top: 35%
+}
+
+.image-sidebar .logo {
+    height: 115px;
+    margin: auto;
+}
+
+.form-container {
+    width: 75%;
+    height: 100%
+}

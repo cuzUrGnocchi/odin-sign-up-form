@@ -21,8 +21,7 @@ body > div {
 }
 
 .image-sidebar {
-    /* background-image: url("../imgs/mountain-scenery.jpg"); */
-    background-color: aqua;
+    background-image: url("../imgs/mountain-scenery.jpg");
     background-size: cover;
     background-position: 25%;
     width: 37.5%;

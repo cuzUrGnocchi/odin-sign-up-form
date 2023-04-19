@@ -96,6 +96,12 @@ label {
 input {
     width: 220px;
     font: inherit;
+    border: 2px solid #E5E7EB;
+}
+
+input:focus-visible {
+    outline: none;
+    border: 2px solid rgb(20, 20, 255);
 }
 
 .sign-up {
@@ -103,10 +109,14 @@ input {
     color: white;
     font-family: var(--content-font);
     font-size: 1rem;
-    padding: 5px 5px 2px;
+    padding: 6px 6px 3px;
     margin-left: var(--left-margin);
     margin-top: 30px;
-    border: 1px solid black;
+    border: 2px outset white;
+}
+
+.sign-up:active {
+    border-style: inset;
 }
 
 .member-already {

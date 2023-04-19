@@ -24,6 +24,7 @@ body > div {
     background-image: url("../imgs/mountain-scenery.jpg");
     background-size: cover;
     background-position: 25%;
+    position: relative;
     width: 37.5%;
     height: 100%;
     min-width: 250px;
@@ -49,6 +50,15 @@ body > div {
     font-family: ChakraPetch;
     font-size: 2rem;
     color: white;
+}
+
+.copyright {
+    font-family: var(--content-font);
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
 }
 
 .main-content {
